@@ -59,22 +59,22 @@ const Header = () => {
                 </>
               ) : (
                 <>
-                  <Link to='/login' className='me-2'>Login</Link>
+                  <Link to='/login'>Login</Link>
                   <Link to='/register'>Register</Link>
                 </>
               )}
             </>
-            <Nav.Link eventKey={2} href='#memes'>
+            <Link to='/profile'>
               {user?.photoURL ? (
                 <Image
-                  style={{ height: '30px' }}
+                   height={40}
                   roundedCircle
                   src={user?.photoURL}
                 ></Image>
               ) : (
                 <FaUser></FaUser>
               )}
-            </Nav.Link>
+            </Link>
           </Nav>
           <div className='d-lg-none'>
             <LeftSideNav></LeftSideNav>
