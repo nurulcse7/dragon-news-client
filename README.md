@@ -12,6 +12,7 @@
 - React
 - React Router Dom
 - React Icons
+- react hot toast 
 - ReactBootstrap
 - Authentication firebase
 - Deploy In firebase
