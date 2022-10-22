@@ -1,6 +1,9 @@
 # Dragon-News-client-module-60
 
-### Live link: [Click here](https://dragon-news-4e9ab.web.app/)
+### Live link Client-side: [Click here](https://dragon-news-4e9ab.web.app/)
+
+### Live link Server-side: [Click here](https://dragon-news-server-swart-six.vercel.app/)
+
 
 ### Code: [Client](https://github.com/nurulcse7/dragon-news-client-module-60)
 
